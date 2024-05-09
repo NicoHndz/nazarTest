@@ -1,9 +1,9 @@
 # Prueba técnica Transportes Nazar
 
-Prueba para el cargo de desarrollador Frontend. Construido con React + Redux + Material-UI
+Prueba para el cargo de desarrollador Frontend. Construido con React + Redux + Material-UI.
 
-Para ver proyecto desplegado:
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+Para ver el proyecto desplegado:
+https://nazarfrontendtest.netlify.app/
 
-Link Repositorio:
+Enlace al repositorio:
 https://github.com/NicoHndz/nazarTest
