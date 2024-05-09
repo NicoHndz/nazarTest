@@ -91,8 +91,17 @@ export default function TicketEditor({ id }) {
             alignItems={"center"}
             width={"100%"}
           >
-            <Typography color={"black"}>Editar ticket</Typography>
-            <IconButton onClick={handleClose} size="small">
+            <Typography
+              variant={"h5"}
+              fontFamily={"Raleway, sans-serif"}
+              fontSize={{ xs: "22px", md: "40px" }}
+              fontWeight={"700"}
+              color={"primary"}
+              align="center"
+            >
+              Editar ticket
+            </Typography>
+            <IconButton onClick={handleClose} size="small" color="primary">
               <CloseIcon />
             </IconButton>
           </Stack>

@@ -77,8 +77,17 @@ export default function TicketCreator() {
             alignItems={"center"}
             width={"100%"}
           >
-            <Typography color={"black"}>Crear nuevo ticket</Typography>
-            <IconButton onClick={handleClose}>
+            <Typography
+              variant={"h5"}
+              fontFamily={"Raleway, sans-serif"}
+              fontSize={{ xs: "22px", md: "40px" }}
+              fontWeight={"700"}
+              color={"primary"}
+              align="center"
+            >
+              Crear ticket
+            </Typography>
+            <IconButton onClick={handleClose} color="primary">
               <CloseIcon />
             </IconButton>
           </Stack>
